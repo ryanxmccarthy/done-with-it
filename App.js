@@ -3,11 +3,12 @@ import React from "react";
 import { StyleSheet, Text, View, TouchableWithoutFeedback } from "react-native";
 
 export default function App() {
+  let x;
+  x.toString();
+
   return (
     <View style={styles.container}>
-      <Text>Inside me there are two wolves.</Text>
-      <Text>One is bad at writing code.</Text>
-      <Text>The other one is a wolf, so he also can't code.</Text>
+      <Text>Hello React Native.</Text>
       <StatusBar style="auto" />
     </View>
   );
