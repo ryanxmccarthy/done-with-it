@@ -5,7 +5,7 @@ import { StyleSheet, Button, SafeAreaView } from "react-native";
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Button title="Click me" />
+      <Button title="Click me" onPress={() => alert("button tapped")} />
     </SafeAreaView>
   );
 }
